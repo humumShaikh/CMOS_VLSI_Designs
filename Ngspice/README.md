@@ -15,6 +15,6 @@
 1. **ngspice**
 2. **source <file_name>**
 3. **run**
-4. **display**
-5. **print <signal_name>**
-6. **plot <signal_name>**
+4. **display**                 //displays all the signals in the design , i.e. all nets
+5. **print <signal_name>**    //prints the value of the signal
+6. **plot <signal_name>**    //plots a graph of the mentioned signal
