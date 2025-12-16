@@ -1,21 +1,8 @@
-.title Full Wave Rectifier
+<img width="1515" height="937" alt="image" src="https://github.com/user-attachments/assets/f8c3f811-6c64-442f-bad1-91d21d8f33d5" />
 
-.model D1N4007 D(IS=2.52n RS=0.568 N=1.752 CJO=4p)
 
-V1 Vin Gnd SIN(0 230 50 0 0 0)
+**Input AC Signal**
+<img width="1515" height="937" alt="image" src="https://github.com/user-attachments/assets/9b52d369-38da-4ac1-91e9-47f4af03019c" />
 
-D1 Vb Vin D1N4007
-D2 Vin Va D1N4007
-D3 Gnd Va D1N4007
-D4 Vb Gnd D1N4007
-Rl Va Vb 10k
-*Cl Va Vb 480u
-
-.control 
-op
-tran 10u 100m
-echo "Hello World"
-gnuplot gp vin va-vb
-shell clear
-.endc
-.end
+**Output Rectified Signal**
+<img width="1515" height="937" alt="image" src="https://github.com/user-attachments/assets/86beb732-ba60-4e3d-a2e4-8b20d0b0d0bb" />
