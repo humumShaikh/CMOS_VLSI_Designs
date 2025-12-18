@@ -2,6 +2,7 @@
 
 
 
-***Power Analysis***
 
+
+***Power Analysis***
 <img width="1134" height="816" alt="image" src="https://github.com/user-attachments/assets/c6527477-e06c-4c57-83a0-a8e00d96fe64" />
