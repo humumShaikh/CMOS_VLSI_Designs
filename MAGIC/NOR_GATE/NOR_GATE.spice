@@ -1,0 +1,13 @@
+* NGSPICE file created from NOR_GATE.ext - technology: sky130A
+
+.subckt NOR_GATE Vdd Vss A B Y
+X0 Vdd B a_260_350# Vdd sky130_fd_pr__pfet_01v8 ad=1.365 pd=5.5 as=0.945 ps=3 w=2.1 l=0.15
+**devattr s=37800,600 d=54600,1100
+X1 Vss A Y Vss sky130_fd_pr__nfet_01v8 ad=0.4725 pd=3 as=0.4725 ps=3 w=1.05 l=0.15
+**devattr s=18900,600 d=18900,600
+X2 Y B Vss Vss sky130_fd_pr__nfet_01v8 ad=0.4725 pd=3 as=0.4725 ps=3 w=1.05 l=0.15
+**devattr s=18900,600 d=18900,600
+X3 a_260_350# A Y Vdd sky130_fd_pr__pfet_01v8 ad=0.945 pd=3 as=1.365 ps=5.5 w=2.1 l=0.15
+**devattr s=54600,1100 d=37800,600
+.ends
+
