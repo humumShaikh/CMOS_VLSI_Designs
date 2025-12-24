@@ -13,6 +13,8 @@
 ***STEPS TO CONFIGURE***
 
 1. Once done with the design, extract the spice file using the following commands given below, paste them all directly into the MAGIC terminal
+
+
 #!/bin/bash
 extract all 
 ext2spice lvs
@@ -29,8 +31,8 @@ ext2spice -d
 
 
 
-2. Two more files will be extracted in the folder where the design layout file was created.
-3. Copy all these 3 file (.mag) (.spice) (.ext) into a newly created folder for clean usage.
+3. Two more files will be extracted in the folder where the design layout file was created.
+4. Copy all these 3 file (.mag) (.spice) (.ext) into a newly created folder for clean usage.
 5. Create another file in this new folder with name "tb_<design_name>.sp"
 
 
